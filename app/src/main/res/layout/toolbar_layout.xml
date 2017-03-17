@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    style="@style/AppTheme"
+    android:background="@color/colorPrimary" android:elevation="4dp">
+    <LinearLayout
+        android:id="@+id/btnGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:padding="2dp"
+        android:orientation="horizontal" >
+
+  <TextView
+        android:id="@+id/txtMag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center_vertical"
+        android:text="@string/app_name"/>
+        
+  <ImageView
+            android:id="@+id/imgrefresh"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="170dp"
+            android:padding="7dp"
+            android:src="@drawable/ic_action_refresh" />
+    </LinearLayout>
+    </android.support.v7.widget.Toolbar>

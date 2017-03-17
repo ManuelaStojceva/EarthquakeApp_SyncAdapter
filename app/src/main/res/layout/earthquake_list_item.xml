@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:id="@+id/layout">
+    <TextView
+        android:id="@+id/txtPlaceLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:text="Place:"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/txtPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/txtMagLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:text="Magnitude:"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/txtMag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:textColor="@android:color/holo_red_dark"
+       />
+    <View
+        style="@style/global_row_separator" />
+</LinearLayout>
